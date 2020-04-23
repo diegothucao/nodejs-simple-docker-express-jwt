@@ -1,6 +1,10 @@
 # Composer, express
 This is an essential example to build docker with Composer, express
 
+To run:  docker-compose up --build      
+
+Code example
+
 ``` javascript
 import cors from 'cors'
 import { urlencoded, json } from 'body-parser'
