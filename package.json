@@ -1,0 +1,42 @@
+{
+  "name": "Server",
+  "version": "1.0.0",
+  "description": "Server",
+  "main": "src/app.js",
+  "author": "Diego CAO <cao.trung.thu@gmail.com>",
+  "scripts": {
+    "test": "echo \"Error: no test  specified\" && exit 1",
+    "build": "babel src -d dist",
+    "start": "nodemon ./src/app.js --exec babel-node"
+  },
+  "keywords": [
+    "Diego"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@types/cors": "^2.8.5",
+    "@types/dotenv": "^6.1.0",
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "2.8.5",
+    "date-and-time": "^0.13.1",
+    "dotenv": "^6.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.7",
+    "nodemon": "^1.18.8"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.0",
+    "@babel/node": "^7.2.0",
+    "@babel/plugin-transform-async-to-generator": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-typescript": "^7.1.0",
+    "@babel/runtime": "^7.2.0",
+    "babel-plugin-inline-import": "^2.0.4"
+  }
+}
